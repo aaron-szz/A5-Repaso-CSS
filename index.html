@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAERON SUAREZ</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #007bff;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007bff; 
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #e6f2ff; 
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Comandos Flexbox froggy</th>
+                <th>Descripción</th>
+                <th>Respuestas Flexbox Froggy</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>justify-content: flex-end;</td>
+                <td>Desplaza los elementos hacia el extremo derecho.</td>
+                <td>Level 1</td>
+            </tr>
+            <tr>
+                <td>justify-content: center;</td>
+                <td>Centra los elementos horizontalmente.</td>
+                <td>Level 2</td>
+            </tr>
+            <tr>
+                <td>justify-content: space-around;</td>
+                <td>Distribuye uniformemente el espacio alrededor de los elementos.</td>
+                <td>Level 3</td>
+            </tr>
+            <tr>
+                <td>justify-content: space-between;</td>
+                <td>Distribuye uniformemente el espacio entre los elementos.</td>
+                <td>Level 4</td>
+            </tr>
+            <tr>
+                <td>align-items: flex-end;</td>
+                <td>Alinea los elementos al extremo inferior.</td>
+                <td>Level 5</td>
+            </tr>
+            <tr>
+                <td>align-items: center;<br>justify-content: center;</td>
+                <td>Centra los elementos vertical y horizontalmente.</td>
+                <td>Level 6</td>
+            </tr>
+            <tr>
+                <td>justify-content: space-around;</td>
+                <td>Distribuye uniformemente el espacio alrededor de los elementos.</td>
+                <td>Level 7</td>
+            </tr>
+            <tr>
+                <td>flex-direction: row-reverse;</td>
+                <td>Invierte el orden de los elementos en filas.</td>
+                <td>Level 8</td>
+            </tr>
+            <tr>
+                <td>flex-direction: column;</td>
+                <td>Apila los elementos verticalmente.</td>
+                <td>Level 9</td>
+            </tr>
+            <tr>
+                <td>flex-direction: row-reverse;<br>justify-content: flex-end;</td>
+                <td>Invierte el orden de los elementos en filas y los alinea al extremo derecho.</td>
+                <td>Level 10</td>
+            </tr>
+            <tr>
+                <td>flex-direction: column;<br>justify-content: flex-end;</td>
+                <td>Apila los elementos verticalmente y los alinea al extremo inferior.</td>
+                <td>Level 11</td>
+            </tr>
+            <tr>
+                <td>flex-direction: column-reverse;<br>justify-content: space-between;</td>
+                <td>Invierte el orden de los elementos y distribuye uniformemente el espacio entre ellos.</td>
+                <td>Level 12</td>
+            </tr>
+            <tr>
+                <td>flex-direction: row-reverse;<br>justify-content: center;<br>align-items: flex-end;</td>
+                <td>Invierte el orden de los elementos en filas, los alinea horizontalmente al centro y verticalmente al extremo inferior.</td>
+                <td>Level 13</td>
+            </tr>
+            <tr>
+                <td>order: 1;</td>
+                <td>Define el orden del elemento dentro de su contenedor.</td>
+                <td>Level 14</td>
+            </tr>
+            <tr>
+                <td>order: -3;</td>
+                <td>Define un orden negativo para el elemento dentro de su contenedor.</td>
+                <td>Level 15</td>
+            </tr>
+            <tr>
+                <td>align-self: flex-end;</td>
+                <td>Alinea el elemento a sí mismo al extremo inferior.</td>
+                <td>Level 16</td>
+            </tr>
+            <tr>
+                <td>align-self: flex-end;<br>order: 1;</td>
+                <td>Alinea el elemento a sí mismo al extremo inferior y define su orden dentro del contenedor.</td>
+                <td>Level 17</td>
+            </tr>
+            <tr>
+                <td>flex-wrap: wrap;</td>
+                <td>Envuelve los elementos en múltiples líneas si es necesario.</td>
+                <td>Level 18</td>
+            </tr>
+            <tr>
+                <td>flex-direction: column;<br>flex-wrap: wrap;</td>
+                <td>Apila elementos verticalmente y los envuelve en múltiples líneas.</td>
+                <td>Level 19</td>
+            </tr>
+            <tr>
+                <td>flex-flow: column wrap;</td>
+                <td>Combina la dirección y la envoltura para apilar elementos verticalmente y envolverlos en múltiples líneas.</td>
+                <td>Level 20</td>
+            </tr>
+            <tr>
+                <td>align-content: flex-start;</td>
+                <td>Alinea el contenido en el extremo inicial de la línea de contenedor.</td>
+                <td>Level 21</td>
+            </tr>
+            <tr>
+                <td>align-content: flex-end;</td>
+                <td>Alinea el contenido en el extremo final de la línea de contenedor.</td>
+                <td>Level 22</td>
+            </tr>
+            <tr>
+                <td>flex-direction: column-reverse;<br>align-content: center;</td>
+                <td>Invierte el orden de los elementos y alinea el contenido en el centro de la línea de contenedor.</td>
+                <td>Level 23</td>
+            </tr>
+            <tr>
+                <td>flex-flow: column-reverse wrap-reverse;<br>justify-content: center;<br>align-content: space-between;</td>
+                <td>Invierte el orden de los elementos y envuelve en múltiples líneas en reversa. Justifica el contenido al centro horizontalmente y alinea el contenido con espacio entre las líneas de contenedor.</td>
+                <td>Level 24</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div style="height: 20px;"></div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Comandos Flexbox defense</th>
+            <th>Descripción</th>
+            <th>Respuestas Flexbox defense</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>justify-content: center;</td>
+            <td>Centra los elementos horizontalmente.</td>
+            <td>Level 1</td>
+        </tr>
+        <tr>
+            <td>justify-content: flex-end;<br>justify-content: center;<br>justify-content: flex-end;</td>
+            <td>Desplaza los elementos hacia el extremo derecho, centra los elementos horizontalmente y desplaza los elementos hacia el extremo derecho nuevamente.</td>
+            <td>Level 2</td>
+        </tr>
+        <tr>
+            <td>justify-content: center;<br>justify-content: space-between;</td>
+            <td>Centra los elementos horizontalmente y distribuye uniformemente el espacio entre los elementos.</td>
+            <td>Level 3</td>
+        </tr>
+        <tr>
+            <td>align-items: flex-end;<br>justify-content: center;</td>
+            <td>Alinea los elementos al extremo inferior y centra los elementos horizontalmente.</td>
+            <td>Level 4</td>
+        </tr>
+        <tr>
+            <td>justify-content: space-around;<br>align-items: flex-end;<br>justify-content: center;<br>justify-content: center;</td>
+            <td>Distribuye uniformemente el espacio alrededor, alinea los elementos al extremo inferior y centra los elementos horizontalmente.</td>
+            <td>Level 5</td>
+        </tr>
+        <tr>
+            <td>justify-content: space-between;<br>align-items: center;</td>
+            <td>Distribuye uniformemente el espacio entre los elementos y centra los elementos verticalmente.</td>
+            <td>Level 6</td>
+        </tr>
+        <tr>
+            <td>flex-direction: column;</td>
+            <td>Apila los elementos verticalmente.</td>
+            <td>Level 7</td>
+        </tr>
+        <tr>
+            <td>flex-direction: column;<br>align-items: center;<br>flex-direction: column;</td>
+            <td>Apila los elementos verticalmente, centra los elementos y apila los elementos verticalmente nuevamente.</td>
+            <td>Level 8</td>
+        </tr>
+        <tr>
+            <td>justify-content: space-around;<br>flex-direction: row-reverse;<br>flex-direction: row-reverse;<br>align-items: center;<br>justify-content: space-around;</td>
+            <td>Distribuye uniformemente el espacio alrededor, invierte el orden de los elementos en filas, invierte el orden de los elementos en filas nuevamente, centra los elementos y distribuye uniformemente el espacio alrededor.</td>
+            <td>Level 9</td>
+        </tr>
+        <tr>
+            <td>justify-content: space-around;<br>order: 1;<br>justify-content: space-around;<br>order: -1;</td>
+            <td>Distribuye uniformemente el espacio alrededor, define el orden del elemento dentro de su contenedor, distribuye uniformemente el espacio alrededor nuevamente y define el orden del elemento dentro de su contenedor con un orden negativo.</td>
+            <td>Level 10</td>
+        </tr>
+        <tr>
+            <td>justify-content: space-between;<br>align-self: flex-end;<br>align-self: flex-end;</td>
+            <td>Distribuye uniformemente el espacio entre los elementos y alinea cada elemento a sí mismo al extremo inferior.</td>
+            <td>Level 11</td>
+        </tr>
+        <tr>
+            <td>justify-content: space-between;<br>align-items: center;<br>order: 1;<br>align-self: center;<br>align-self: center;<br>align-self: flex-end;<br>order: 1;</td>
+            <td>Distribuye uniformemente el espacio entre los elementos, centra los elementos, define el orden del elemento dentro de su contenedor, alinea el elemento a sí mismo en el centro, alinea el elemento a sí mismo en el centro nuevamente, alinea el elemento a sí mismo al extremo inferior y define el orden del elemento dentro de su contenedor.</td>
+            <td>Level 12</td>
+        </tr>
+    </tbody>
+</table>
+
+<div style="height: 20px;"></div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nivel Flexbox adventure</th>
+            <th>Comandos Flexbox adventure</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>justify-content: center;</td>
+            <td>Centra los elementos horizontalmente.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>justify-content: flex-end;</td>
+            <td>Desplaza los elementos hacia el extremo derecho.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>justify-content: space-between;</td>
+            <td>Distribuye uniformemente el espacio entre los elementos.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>justify-content: space-around;</td>
+            <td>Distribuye uniformemente el espacio alrededor de los elementos.</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>justify-content: space-evenly;</td>
+            <td>Distribuye uniformemente el espacio alrededor de los elementos, incluso entre ellos.</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>align-items: center;</td>
+            <td>Centra verticalmente los elementos dentro del contenedor.</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>align-items: flex-end;</td>
+            <td>Alinea los elementos al extremo inferior del contenedor.</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>justify-content: center;<br>align-items: center;</td>
+            <td>Centra horizontal y verticalmente los elementos dentro del contenedor.</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>justify-content: space-between;<br>align-items: flex-end;</td>
+            <td>Distribuye uniformemente el espacio entre los elementos horizontalmente y alinea los elementos al extremo inferior.</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>flex-direction: column;</td>
+            <td>Apila los elementos verticalmente.</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>flex-direction: row-reverse;</td>
+            <td>Invierte el orden de los elementos en filas.</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>flex-direction: column-reverse;<br>justify-content: flex-start;</td>
+            <td>Invierte el orden de los elementos apilados verticalmente y desplaza los elementos hacia el extremo superior del contenedor.</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>flex-direction: row-reverse;<br>justify-content: center;<br>align-items: center;</td>
+            <td>Invierte el orden de los elementos en filas, centra horizontal y verticalmente los elementos dentro del contenedor.</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>order: 2;</td>
+            <td>Define el orden del elemento dentro de su contenedor.</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>align-self: center;</td>
+            <td>Centra el elemento a sí mismo verticalmente dentro del contenedor.</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>align-self: flex-end;<br>order: 1;</td>
+            <td>Alinea el elemento a sí mismo al extremo inferior y define su orden dentro del contenedor.</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>flex-direction: column-reverse;<br>justify-content: flex-end;<br>align-items: center;</td>
+            <td>Invierte el orden de los elementos apilados verticalmente, desplaza los elementos hacia el extremo inferior del contenedor y los centra horizontalmente.</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>order: 2;<br>align-self: center;</td>
+            <td>Define el orden del elemento dentro de su contenedor y lo centra verticalmente a sí mismo.</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>flex-wrap: wrap;</td>
+            <td>Permite que los elementos se envuelvan automáticamente si no caben en una sola fila o columna.</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>align-content: center;</td>
+            <td>Centra verticalmente los elementos dentro del contenedor.</td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>align-content: flex-end;<br>justify-content: center;</td>
+            <td>Centra verticalmente los elementos dentro del contenedor y centra horizontalmente los elementos dentro del contenedor.</td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>flex-direction: column-reverse;<br>justify-content: space-around;<br>align-items: flex-end;</td>
+            <td>Invierte el orden de los elementos apilados verticalmente, distribuye uniformemente el espacio alrededor de los elementos y los alinea al extremo inferior del contenedor.</td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>flex-direction: column-reverse;<br>flex-wrap: wrap-reverse;<br>align-content: center;<br>justify-content: center;</td>
+            <td>Invierte el orden de los elementos apilados verticalmente, envuelve automáticamente los elementos en filas o columnas en sentido contrario, centra verticalmente los elementos dentro del contenedor y los distribuye uniformemente horizontalmente.</td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>order: 3;<br>align-self: center;</td>
+            <td>Define el orden del elemento dentro de su contenedor y lo centra verticalmente a sí mismo.</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
